@@ -13,7 +13,7 @@ return {
           root_dir = require("lspconfig").util.find_git_ancestor,
           single_file_support = true,
         },
-        c = {
+        ccls = {
           cmd = {
             "ccls",
           },
